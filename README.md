@@ -2,7 +2,9 @@
 
 This project shows how to configure a docker container as a service, using a jenkins image.
 
-Vagrant helps to automatize the things, it's not necessary. The steps to configure the docker container and setup a upstart service are in [setup.sh](setup.sh).
+Vagrant helps to automatize the things, it's not necessary any way. 
+
+The steps to configure the docker container are in [setup.sh](setup.sh) and to setup a upstart service just copy [jenkins.conf](jenkins.conf) to /etc/init/.
 
 ### setup
 ```sh
